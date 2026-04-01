@@ -2,12 +2,9 @@ import express from 'express';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import path from 'path';
-import dotenv from "dotenv";
+import {configDotenv} from "dotenv";
 
-dotenv.config({
-  path: "./.env",
-});
-
+configDotenv()
 
 const app = express();
 

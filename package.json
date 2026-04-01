@@ -13,7 +13,7 @@
   "license": "ISC",
   "author": "mauricio luis schwantes",
   "type": "module",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon api/index.js"
