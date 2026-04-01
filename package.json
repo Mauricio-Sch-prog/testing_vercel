@@ -1,0 +1,26 @@
+{
+  "name": "testing_vercel",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mauricio-Sch-prog/testing_vercel#readme",
+  "bugs": {
+    "url": "https://github.com/Mauricio-Sch-prog/testing_vercel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mauricio-Sch-prog/testing_vercel.git"
+  },
+  "license": "ISC",
+  "author": "mauricio luis schwantes",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  }
+}
